@@ -1,0 +1,9 @@
+typedef Int2 = int;
+Int2 f (int a){
+  return a;
+}
+
+main {
+    int x = 7;
+    print call f ( x );
+}

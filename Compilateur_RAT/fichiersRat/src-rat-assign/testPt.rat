@@ -1,0 +1,11 @@
+main{
+	int * px = (new int);
+    int * py = (new int);
+	int x = 3;
+    int y = 5;
+	px = &x;
+    py = &y;
+	int z = (*px);
+    z += (*py);
+	print z;
+}

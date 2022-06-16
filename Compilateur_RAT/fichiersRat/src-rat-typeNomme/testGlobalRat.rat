@@ -1,0 +1,5 @@
+typedef Rat2 = rat;
+main {
+	Rat2 x = [8/4];
+	print x;
+}

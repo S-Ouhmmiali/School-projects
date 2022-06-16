@@ -1,0 +1,11 @@
+main {
+	int * px = (new int);
+	int ** ppx = (new int *); 
+	
+	int x = 7;
+   	px = &x;
+   	ppx = &px;
+
+    int rx = (*(*ppx));
+    print rx;
+}

@@ -1,0 +1,23 @@
+main {
+	int * x = (new int);
+	int xv = 5;
+	x = &xv;
+	int * y = (new int);
+	int yv = 7;
+	y = &yv;
+
+	
+
+	bool xinfy = ((*y) < (*x));
+	print xinfy;
+
+	bool xeqy = ((*x) = (*y));
+	print xeqy;
+
+	int xpy = ((*x) + (*y));
+	print xpy;
+
+	int xmy = ((*x) * (*y));
+	print xmy;
+
+}

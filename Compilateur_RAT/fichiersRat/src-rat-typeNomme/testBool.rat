@@ -1,0 +1,5 @@
+main {
+	typedef Bool2 = bool;
+	Bool2 x = true;
+	print x;
+}

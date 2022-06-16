@@ -1,0 +1,8 @@
+main{
+    struct {bool x bool y bool z} p = {true false true};
+    (p.y) = true;
+    (p.z) = (4 < 3);
+    print (p.x);
+    print (p.y);
+    print (p.z);
+}

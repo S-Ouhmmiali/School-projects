@@ -1,0 +1,6 @@
+main{
+    struct {int x int y} p = {2 5};
+    (p.y) = 4;
+    print (p.x);
+    print (p.y);
+}

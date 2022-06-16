@@ -1,0 +1,7 @@
+main{
+	bool * p = (new bool);
+	bool x = false;
+	p = &x;
+	bool y = (*p);
+	print y;
+}

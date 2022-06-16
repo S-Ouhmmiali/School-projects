@@ -1,0 +1,7 @@
+main{
+	rat * px = (new rat);
+	rat x = [3/2];
+	px = &x;
+	rat y = (*px);
+	print y;
+}

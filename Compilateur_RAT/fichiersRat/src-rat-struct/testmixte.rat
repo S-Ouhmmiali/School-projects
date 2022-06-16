@@ -1,0 +1,8 @@
+main{
+    struct {int x rat y bool w} p = {2 [1/2] true};
+    (p.x) = 4;
+    (p.w) = false;
+    print (p.x);
+    print (p.y);
+    print (p.w);
+}
